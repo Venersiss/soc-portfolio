@@ -1,41 +1,40 @@
 ﻿# SOC Portfolio
 
-Building toward a **Tier 1 SOC Analyst** role. Every artifact in this repo is my own work — labs I built, attacks I ran, detections I wrote, and investigations I walked through.
+Hi, I'm Ivan. I'm a computer engineering student working toward a Tier 1 SOC Analyst role.
 
-## Status
+This repo holds my security work. You'll find the labs I built, the attacks I ran, the detections I wrote, and the investigations I walked through. Everything here is my own work.
 
-- **Path:** TryHackMe SOC Level 1 (in progress)
-- **Goal:** Tier 1 SOC Analyst
-- **Updated:** continuously
+## What's inside
 
-## What's in here
+**detections/**  Rules I wrote to catch bad behavior, plus the reasoning behind each one.
 
-```
-├── detections/        detection rules + the reasoning behind them
-├── investigations/    triage writeups, case-style
-├── labs/              home lab setups + attack/observation writeups
-├── scripts/           tools: log parsers, IOC extractors, helpers
-└── notes/             public concept explainers (my own labs, not room solutions)
-```
+**investigations/**  Case writeups of alerts I triaged, like real SOC shift reports.
+
+**labs/**  My home lab setup and what I learned from attacking it.
+
+**scripts/**  Small tools that make security work faster and repeatable.
+
+**notes/**  Short explainers written for non-technical readers.
 
 ## Why this exists
 
-A SOC portfolio isn't a "cool projects" gallery. It's **evidence**: can I investigate, can I document, can I detect? Each artifact answers one of those questions.
+A SOC portfolio is evidence. Can I investigate? Can I document? Can I detect? Each file in this repo answers one of those questions.
 
-## Skills being built
+## Where I'm at
 
-- Alert triage and investigation
-- Detection engineering (Sigma, YARA, SIEM searches)
-- Network and endpoint analysis
-- Threat intelligence and IOC extraction
-- Incident response fundamentals
+I'm working through the TryHackMe SOC Level 1 path. My goal is a Tier 1 SOC Analyst role, and I'm building this portfolio to prove I'm ready.
 
 ## Roadmap
 
-- [x] Start SOC Level 1 path
-- [ ] Complete SOC Level 1 (SAL1 certification)
-- [ ] Security+ certification
-- [ ] Phase 1 home lab (attack/observation)
-- [ ] Phase 2 home lab (SIEM detection)
-- [ ] First detection rule
-- [ ] First investigation writeup
+Done:
+
+- Started the SOC Level 1 path
+
+Next:
+
+- Finish SOC Level 1 and earn the SAL1 certification
+- Pass CompTIA Security+
+- Build phase 1 home lab (attack and observation)
+- Build phase 2 home lab (SIEM detection)
+- Write my first detection rule
+- Write my first investigation writeup
